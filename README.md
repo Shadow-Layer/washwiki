@@ -106,3 +106,20 @@ Run the content validation tests with:
 ```bash
 npm test
 ```
+
+## Deploying to Vercel
+
+Import this repository into Vercel with the repository root as the project root.
+Vercel detects the Flask application exposed by `wsgi.py`; `.python-version` and
+`requirements.txt` select the Python runtime and dependencies. `vercel.json`
+sets the function timeout. Configure any optional WhatsApp or OpenAI credentials
+as Vercel environment variables; do not commit real credentials.
+
+The application currently keeps conversation state in process memory, and its
+analytics log is written to temporary storage on Vercel. Sessions may reset
+between function instances and analytics are not durable. Use a shared
+persistent store before relying on multi-turn conversations or analytics in
+production.
+
+Deploy with the Vercel CLI using `vercel` for a preview deployment and
+`vercel --prod` for production.

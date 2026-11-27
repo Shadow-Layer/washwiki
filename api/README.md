@@ -65,6 +65,21 @@ The WhatsApp webhook URL must be HTTPS and registered in the Meta Developer Cons
 | `is_escalation` | boolean | Indicates escalation handling |
 | `topic_menu` | array | Suggested fallback topic options |
 
-## Note
+## Deploying to Vercel
 
-`logic/flow_manager.py` must be present (built separately). Run from the workspace root so the `logic` package is importable.
+Import the repository with its root as the Vercel project root. Vercel detects
+the Flask app exported by `wsgi.py`, uses the root `requirements.txt`, and
+applies the function timeout in `vercel.json`. Configure optional environment
+variables in the Vercel project settings:
+
+- `WHATSAPP_VERIFY_TOKEN`
+- `WHATSAPP_ACCESS_TOKEN`
+- `WHATSAPP_PHONE_NUMBER_ID`
+- `OPENAI_API_KEY`
+- `AI_ENABLED`
+- `AI_MODEL`
+- `AI_TIMEOUT_SECONDS`
+
+Conversation state is process-local and analytics use temporary storage on
+Vercel. Neither is durable or shared between function instances; configure a
+persistent shared service before production use.

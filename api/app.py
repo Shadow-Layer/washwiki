@@ -18,9 +18,7 @@ app = Flask(
     template_folder=os.path.join(
         os.path.dirname(os.path.abspath(__file__)), "templates"
     ),
-    static_folder=os.path.join(
-        os.path.dirname(os.path.abspath(__file__)), "static"
-    ),
+    static_folder=None,
 )
 
 from api.whatsapp import whatsapp_bp
@@ -87,7 +85,11 @@ def index():
 
 @app.get("/favicon.ico")
 def favicon():
-    return send_from_directory(app.static_folder, "favicon.svg", mimetype="image/svg+xml")
+    return send_from_directory(
+        os.path.join(REPO_ROOT, "public"),
+        "favicon.svg",
+        mimetype="image/svg+xml",
+    )
 
 
 @app.get("/health")
