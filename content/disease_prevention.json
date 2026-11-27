@@ -1,0 +1,827 @@
+[
+  {
+    "intent_id": "rainy_season_risk",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "Why do diseases increase during the rainy season?",
+      "shona": "Sei zvirwere zvichiwanda mumwaka wemvura?"
+    },
+    "sample_variations": {
+      "en": [
+        "Why am I getting sick in the rainy season?",
+        "Why is disease common when it rains?",
+        "What happens to water and disease in the rainy season?",
+        "People get sick when it rains.",
+        "rainy season disease",
+        "My child gets diarrhoea in the rainy season.",
+        "Why does disease increase after heavy rain?",
+        "Does rain make water dirty?",
+        "Disease in rainy season",
+        "Floods and disease",
+        "Rain and water contamination",
+        "Rainy season health tips",
+        "Why do I get sick when it rains?"
+      ],
+      "shona": [
+        "Sei vanhu vachiwanzorwara mumwaka wemvura?",
+        "Sei chirwere chichiwanda kana kuchinaya?",
+        "Mwaka wemvura unokanganisa sei chirwere nemvura?",
+        "Vanhu vanorwara kana kuchinaya.",
+        "Zvirwere mumwaka wemvura.",
+        "Mwana wangu anobatwa nemanyoka mumwaka wemvura.",
+        "Mvura yemvura inosvibisa mvura here?",
+        "Chirwere mumwaka wemvura",
+        "Mafashamo nezvirwere",
+        "Mvura yemvura nekusvibiswa kwemvura"
+      ]
+    },
+    "answer_short": {
+      "en": "Rain can wash waste and germs into water sources, so disease spreads more easily.",
+      "shona": "Mvura yemvura inogona kugeza tsvina nemasimu ichiisa mumvura yekushandisa, saka chirwere chinopararira nyore."
+    },
+    "answer_steps": {
+      "en": [
+        "Treat drinking water carefully during the rainy season.",
+        "Wash hands often with soap or ash.",
+        "Use a toilet and keep waste away from water."
+      ],
+      "shona": [
+        "Rapai mvura yekunwa nokungwarira mumwaka wemvura.",
+        "Gezai maoko kazhinji nesipo kana madota.",
+        "Shandisai chimbuzi uye chengetai tsvina kure nemvura."
+      ]
+    },
+    "answer_warning": {
+      "en": "Be extra careful about water safety and handwashing during the rainy season.",
+      "shona": "Ngwarirai zvikuru nyaya yemvura yakachengeteka nekugeza maoko mumwaka wemvura."
+    },
+    "follow_up_question": null,
+    "tags": [
+      "rainy season",
+      "rain",
+      "rainy",
+      "season",
+      "flood",
+      "wet",
+      "disease increase",
+      "water contamination",
+      "mwaka wemvura",
+      "zvirwere",
+      "kusvibiswa kwemvura",
+      "korora",
+      "kunaya",
+      "mafashamo",
+      "water",
+      "dirty"
+    ]
+  },
+  {
+    "intent_id": "cholera_outbreak",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "What should I do during a cholera outbreak?",
+      "shona": "Ndoita sei panguva yekupararira kwekorora?"
+    },
+    "sample_variations": {
+      "en": [
+        "Cholera outbreak advice.",
+        "How do I stay safe during cholera?",
+        "What should families do when cholera is spreading?",
+        "There is cholera in my area.",
+        "cholera outbreak",
+        "My child may have cholera symptoms.",
+        "What should the family do during cholera?",
+        "How do I stay safe when cholera is spreading?",
+        "Cholera is spreading",
+        "Cholera in my area",
+        "How to avoid cholera?",
+        "Cholera prevention tips",
+        "Cholera symptoms"
+      ],
+      "shona": [
+        "Pane zano rei panguva yekorora?",
+        "Ndingazvidzivirira sei panguva yekorora?",
+        "Mhuri dzinofanira kuita sei kana korora ichipararira?",
+        "Korora iri munzvimbo yangu.",
+        "Kupararira kwekorora.",
+        "Mwana wangu angava nezviratidzo zvekorora.",
+        "Ndingazvidzivirira sei kana korora ichipararira?",
+        "Korora iri kupararira",
+        "Korora munharaunda yangu",
+        "Ndingodzivirira sei korora?"
+      ]
+    },
+    "answer_short": {
+      "en": "During a cholera outbreak, only use safe water, wash hands often, and go quickly to a clinic for severe diarrhoea or vomiting.",
+      "shona": "Panguva yekorora, shandisai mvura yakachengeteka chete, gezai maoko kazhinji, uye endai kukiriniki nokukurumidza kana pane manyoka akanyanya kana kurutsa."
+    },
+    "answer_steps": {
+      "en": [
+        "Drink only boiled or treated water.",
+        "Wash hands often with soap or ash and use a toilet.",
+        "Go to the nearest clinic immediately if someone has severe diarrhoea or vomiting."
+      ],
+      "shona": [
+        "Inwai mvura yakabikwa kana yarapwa chete.",
+        "Gezai maoko kazhinji nesipo kana madota uye shandisai chimbuzi.",
+        "Endai kuchipatara chepedyo pakarepo kana munhu aine manyoka akanyanya kana kurutsa."
+      ]
+    },
+    "answer_warning": {
+      "en": "Cholera can kill quickly, so severe symptoms need urgent medical help.",
+      "shona": "Korora inogona kuuraya nekukurumidza, saka zviratidzo zvakanyanya zvinoda rubatsiro rwechimbichimbi."
+    },
+    "follow_up_question": {
+      "en": "Is anyone very sick right now?",
+      "shona": "Pane munhu ari kurwara zvakanyanya here pari zvino?"
+    },
+    "tags": [
+      "cholera outbreak",
+      "cholera",
+      "outbreak",
+      "very sick",
+      "vomiting",
+      "diarrhoea",
+      "severe diarrhoea",
+      "clinic",
+      "korora",
+      "kupararira kwekorora",
+      "manyoka",
+      "chipatara",
+      "kurutsa",
+      "kurwara",
+      "safe water"
+    ]
+  },
+  {
+    "intent_id": "disease_protect",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "How can I protect myself from diseases?",
+      "shona": "Ndingazvidzivirira sei kubva kuzvirwere?"
+    },
+    "sample_variations": {
+      "en": [
+        "How do I avoid getting sick?",
+        "What are disease prevention tips?",
+        "How can my family stay healthy?",
+        "I want to protect my family from disease.",
+        "prevent disease",
+        "My child must stay safe from sickness.",
+        "How can we avoid getting sick at home?",
+        "What should we do every day to prevent disease?",
+        "How to stay healthy?",
+        "Disease prevention at home",
+        "Protecting family from disease",
+        "How to avoid waterborne disease?",
+        "Staying healthy tips"
+      ],
+      "shona": [
+        "Ndingaita sei kuti ndisarware?",
+        "Ndeapi mazano ekudzivirira chirwere?",
+        "Mhuri yangu ingaramba sei iine utano?",
+        "Ndinoda kudzivirira mhuri yangu kubva kuzvirwere.",
+        "Dzivirira chirwere.",
+        "Mwana wangu anofanira kuchengetedzwa kubva kurwere.",
+        "Tingaita sei kuti tisarware pamba?",
+        "Ndingaramba sei ndine utano?",
+        "Kudzivirira chirwere kumba",
+        "Kudzivirira mhuri kubva kuzvirwere"
+      ]
+    },
+    "answer_short": {
+      "en": "You can protect yourself by using safe water, washing hands, using a toilet, and keeping food and the home clean.",
+      "shona": "Munozvidzivirira nekushandisa mvura yakachengeteka, kugeza maoko, kushandisa chimbuzi, uye kuchengeta chikafu nemusha zvakachena."
+    },
+    "answer_steps": {
+      "en": [
+        "Drink treated water.",
+        "Wash hands at key times and use a toilet.",
+        "Keep food covered and keep your surroundings clean."
+      ],
+      "shona": [
+        "Inwai mvura yarapwa.",
+        "Gezai maoko panguva dzinokosha uye shandisai chimbuzi.",
+        "Fukidzai chikafu uye chengetai nharaunda yakachena."
+      ]
+    },
+    "answer_warning": {
+      "en": "Ignoring these habits puts your family at risk.",
+      "shona": "Kurega kuita izvi kunoisa mhuri yenyu panjodzi."
+    },
+    "follow_up_question": null,
+    "tags": [
+      "protect from disease",
+      "protect",
+      "prevent",
+      "avoid getting sick",
+      "stomach sickness",
+      "healthy",
+      "safe",
+      "prevention",
+      "zvidzivirire",
+      "zvirwere",
+      "utano",
+      "mvura yakachengeteka",
+      "geza maoko",
+      "dzivirira",
+      "kurwara",
+      "water",
+      "toilet",
+      "clean"
+    ]
+  },
+  {
+    "intent_id": "diarrhoea_what",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "What is diarrhoea and how do I treat it?",
+      "shona": "Manyoka chii uye ndinorapa sei?"
+    },
+    "sample_variations": {
+      "en": [
+        "What causes diarrhoea?",
+        "How do I treat diarrhoea at home?",
+        "What should I do if I have diarrhoea?",
+        "I have diarrhoea.",
+        "diarrhoea",
+        "My child has diarrhoea.",
+        "The clinic said it is running stomach.",
+        "What should I drink when I have diarrhoea?",
+        "I have diarrhoea",
+        "Diarrhoea treatment",
+        "Loose stools treatment",
+        "Running stomach",
+        "Stomach running"
+      ],
+      "shona": [
+        "Chii chinokonzera manyoka?",
+        "Ndinorapa sei manyoka kumba?",
+        "Ndoita sei kana ndine manyoka?",
+        "Ndine manyoka.",
+        "Manyoka.",
+        "Mwana wangu ane manyoka.",
+        "Ndoita sei kana ndiri kuita manyoka?",
+        "Ndine manyoka",
+        "Kurapa manyoka",
+        "Manyoka anorapa sei?"
+      ]
+    },
+    "answer_short": {
+      "en": "Diarrhoea is frequent loose stools caused by germs in food or water. Drink clean water and use oral rehydration salts if available.",
+      "shona": "Manyoka ndiwo kuenda kuimba kazhinji nekuda kwemasimu muchikafu kana mumvura. Inwai mvura yakachena uye shandisai oral rehydration salts kana iripo."
+    },
+    "answer_steps": {
+      "en": [
+        "Drink only boiled or treated water.",
+        "Use oral rehydration salts (ORS) if available.",
+        "Go to a clinic if diarrhoea is severe or lasts more than two days."
+      ],
+      "shona": [
+        "Inwai mvura yakabikwa kana yarapwa chete.",
+        "Shandisai oral rehydration salts (ORS) kana iripo.",
+        "Endai kuchipatara kana manyoka akanyanya kana akaramba mazuva maviri."
+      ]
+    },
+    "answer_warning": {
+      "en": "Diarrhoea in children can become dangerous quickly — seek help early.",
+      "shona": "Manyoka muvana anogona kuva ane ngozi nekukurumidza — tsvagai rubatsiro nekukurumidza."
+    },
+    "follow_up_question": null,
+    "tags": [
+      "diarrhoea",
+      "loose stools",
+      "typhoid sickness",
+      "stomach",
+      "ORS",
+      "manyoka",
+      "kurutsa",
+      "mvura",
+      "chipatara",
+      "vana",
+      "dumbu",
+      "manyoka chii",
+      "vomiting",
+      "water"
+    ]
+  },
+  {
+    "intent_id": "typhoid_what",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "What is typhoid and how does it spread?",
+      "shona": "Typhoid chii uye inoparadzirwa sei?"
+    },
+    "sample_variations": {
+      "en": [
+        "How do I get typhoid?",
+        "What are the signs of typhoid?",
+        "Can typhoid be prevented?",
+        "I want to know about typhoid.",
+        "typhoid",
+        "My child may have typhoid.",
+        "How does typhoid spread in dirty water?",
+        "What signs show typhoid?",
+        "Typhoid fever",
+        "Signs of typhoid",
+        "Typhoid treatment",
+        "How to prevent typhoid?",
+        "Typhoid and water"
+      ],
+      "shona": [
+        "Ndinowana sei typhoid?",
+        "Ndezvipi zviratidzo zvetyphoid?",
+        "Typhoid inogona kudzivirirwa here?",
+        "Ndinoda kuziva nezve typhoid.",
+        "Typhoid.",
+        "Mwana wangu angava netyphoid.",
+        "Typhoid inopararira sei mumvura yakasviba?",
+        "Febha yetyphoid",
+        "Zviratidzo zvetyphoid",
+        "Kudzivirira typhoid"
+      ]
+    },
+    "answer_short": {
+      "en": "Typhoid is a serious bacterial infection spread through contaminated water and food. It causes fever, stomach pain, and weakness.",
+      "shona": "Typhoid chirwere chakakomba chebhakitiriya chinopararira kuburikidza nemvura nechikafu zvine tsvina. Chinokonzera febha, kurwadziwa kwedumbu, uye kushaya simba."
+    },
+    "answer_steps": {
+      "en": [
+        "Drink only treated water.",
+        "Wash hands before eating and after using the toilet.",
+        "Go to a clinic if you have a high fever lasting more than two days."
+      ],
+      "shona": [
+        "Inwai mvura yarapwa chete.",
+        "Gezai maoko musati madya uye mushure mekushandisa chimbuzi.",
+        "Endai kuchipatara kana mune febha yakakwira inoramba mazuva maviri."
+      ]
+    },
+    "answer_warning": {
+      "en": "Typhoid needs medical treatment — do not try to treat it at home alone.",
+      "shona": "Typhoid inoda kurapa kwechipatara — musaedza kuirapa kumba chete."
+    },
+    "follow_up_question": null,
+    "tags": [
+      "typhoid",
+      "fever",
+      "bacterial infection",
+      "dirty water",
+      "food contamination",
+      "febha",
+      "mvura ine tsvina",
+      "chipatara",
+      "chirwere",
+      "kuparadzira",
+      "dumbu",
+      "utachiona",
+      "sick",
+      "stomach",
+      "water",
+      "dirty",
+      "safe water"
+    ]
+  },
+  {
+    "intent_id": "contamination_prevent",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "How can I prevent water contamination at home?",
+      "shona": "Ndingodzivirira sei kusvibiswa kwemvura kumba?"
+    },
+    "sample_variations": {
+      "en": [
+        "How do I keep stored water clean?",
+        "How do I stop water from getting dirty?",
+        "What is the right way to store water?",
+        "I want to stop water contamination at home.",
+        "prevent contamination",
+        "My child drinks stored water at home.",
+        "How do I keep our stored water safe?",
+        "What stops water from getting dirty again?",
+        "How to keep water clean at home?",
+        "Preventing water from getting dirty",
+        "Safe water storage tips",
+        "Water container hygiene",
+        "How to store clean water?"
+      ],
+      "shona": [
+        "Ndinochengeta sei mvura yechengeterwa yakachena?",
+        "Ndinomisa sei mvura kusvibiswa?",
+        "Nzira yakarurama yekuchengeta mvura ndeipi?",
+        "Ndinoda kudzivirira kusvibiswa kwemvura kumba.",
+        "Dzivirira kusvibiswa kwemvura.",
+        "Mwana wangu anwa mvura yakachengeterwa pamba.",
+        "Ndingachengeta sei mvura yedu kuti irege kusviba zvakare?",
+        "Ndinochengeta sei mvura yakachena kumba?",
+        "Kudzivirira mvura kusvibiswa",
+        "Mazano ekuchengeta mvura yakachengeteka"
+      ]
+    },
+    "answer_short": {
+      "en": "Keep stored water covered, use a clean container with a lid, and never dip dirty hands or cups into stored water.",
+      "shona": "Chengetai mvura yechengeterwa yakafukidzwa, shandisai mudziyo wakachena une chipfeko, uye musambobatidza maoko kana kapu tsvina mumvura yechengeterwa."
+    },
+    "answer_steps": {
+      "en": [
+        "Store water in a clean covered container.",
+        "Use a ladle or tap to pour water out — never dip hands in.",
+        "Keep the storage area clean and away from animals."
+      ],
+      "shona": [
+        "Chengetai mvura mumudziyo wakachena une chipfeko.",
+        "Shandisai kapu kana chombo kutorera mvura — musambobatidza maoko.",
+        "Chengetai nzvimbo yekuchengeta yakachena uye kure nemhuka."
+      ]
+    },
+    "answer_warning": {
+      "en": "Dipping hands or dirty cups into stored water re-contaminates it even after boiling.",
+      "shona": "Kubatidza maoko kana kapu tsvina mumvura yechengeterwa kunoisvibisa zvakare kunyange yakabikwa."
+    },
+    "follow_up_question": null,
+    "tags": [
+      "contamination prevention",
+      "prevent contamination",
+      "stored water",
+      "clean container",
+      "water storage",
+      "safe water",
+      "kusvibiswa",
+      "mvura yechengeterwa",
+      "mudziyo wakachena",
+      "tsvina",
+      "kuchengeta",
+      "mvura",
+      "cover",
+      "water",
+      "safe",
+      "clean",
+      "dirty",
+      "store water",
+      "prevent",
+      "contamination"
+    ]
+  },
+  {
+    "intent_id": "disease_spread_how",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "How do diseases spread in the community?",
+      "shona": "Zvirwere zinopararira sei munharaunda?"
+    },
+    "sample_variations": {
+      "en": [
+        "How do germs spread?",
+        "Why do so many people get sick at the same time?",
+        "What causes disease to spread?",
+        "Disease is spreading in the community.",
+        "disease spread",
+        "My child keeps getting sick from other children.",
+        "How do germs move from one home to another?",
+        "How does sickness spread in the village?",
+        "How do germs travel?",
+        "Disease transmission routes",
+        "How does cholera spread?",
+        "How does diarrhoea spread?",
+        "Ways disease spreads"
+      ],
+      "shona": [
+        "Masimu anopararira sei?",
+        "Sei vanhu vazhinji vachirwara panguva imwe chete?",
+        "Chii chinokonzera kupararira kwezvirwere?",
+        "Chirwere chiri kupararira munharaunda.",
+        "Kupararira kwechirwere.",
+        "Mwana wangu anorwara kubva kune vamwe vana.",
+        "Zvirwere zvinopararira sei mumusha?",
+        "Masimu anofamba sei?",
+        "Nzira dzekupararira kwezvirwere",
+        "Korora inopararira sei?"
+      ]
+    },
+    "answer_short": {
+      "en": "Diseases spread through contaminated water, unwashed hands, open defecation, flies, and contact with sick people or animals.",
+      "shona": "Zvirwere zinopararira kuburikidza nemvura ine tsvina, maoko asina kugezwa, kuzvibatsira panze, makonye, uye kubata vanhu kana mhuka dzirwara."
+    },
+    "answer_steps": {
+      "en": [
+        "Use safe water and wash hands at key times.",
+        "Use a toilet every time and keep waste away from water.",
+        "Keep food covered and avoid contact with people who are very sick."
+      ],
+      "shona": [
+        "Shandisai mvura yakachengeteka uye gezai maoko panguva dzinokosha.",
+        "Shandisai chimbuzi nguva dzose uye chengetai tsvina kure nemvura.",
+        "Fukidzai chikafu uye dziverenai kubata vanhu vari kurwara zvakanyanya."
+      ]
+    },
+    "answer_warning": {
+      "en": "Open defecation is one of the fastest ways to spread disease across a whole community.",
+      "shona": "Kuzvibatsira panze ndiyo nzira imwe yekukurumidza kupararira kwezvirwere munharaunda yose."
+    },
+    "follow_up_question": null,
+    "tags": [
+      "disease spread",
+      "community",
+      "flies",
+      "germs",
+      "open defecation",
+      "contaminated water",
+      "zvirwere",
+      "kupararira",
+      "makonye",
+      "kuzvibatsira panze",
+      "nharaunda",
+      "mvura ine tsvina",
+      "masimu",
+      "disease",
+      "spread",
+      "sick",
+      "water",
+      "toilet",
+      "dirty"
+    ]
+  },
+  {
+    "intent_id": "ors_what",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "What is ORS and how do I make it?",
+      "shona": "ORS chii uye ndinogadzira sei?"
+    },
+    "sample_variations": {
+      "en": [
+        "How do I make oral rehydration salts?",
+        "What is oral rehydration?",
+        "ORS recipe",
+        "How to treat dehydration at home?",
+        "Sugar salt water for diarrhoea",
+        "Rehydration drink",
+        "How to make ORS at home?",
+        "What do I give for diarrhoea?"
+      ],
+      "shona": [
+        "ORS inogadzirwa sei?",
+        "Ndinogadzira sei mvura yekudzorera simba?",
+        "Chii chinopiwa munhu ane manyoka?",
+        "Ndinorapa sei kuoma kwemuviri?",
+        "Mvura yeshuga nesawoti inobatsira here?"
+      ]
+    },
+    "answer_short": {
+      "en": "ORS replaces fluids and salts lost during diarrhoea. Mix one ORS sachet with 1 litre of clean boiled water. If no sachet is available, mix 6 teaspoons of sugar and half a teaspoon of salt in 1 litre of clean water.",
+      "shona": "ORS inodzisorera mvura nesawoti yakarasika panguva yemanyoka. Sanganya sacheti imwe yeORS neriita rimwe remvura yakabikwa yakachena. Kana sacheti isipo, sanganya makapu matanhatu eshuga nehafu yekapu yesawoti muna riita rimwe remvura yakachena."
+    },
+    "answer_steps": {
+      "en": [
+        "Boil 1 litre of water and let it cool.",
+        "Mix in one ORS sachet, or 6 teaspoons of sugar and half a teaspoon of salt.",
+        "Give small sips frequently — do not force large amounts at once.",
+        "Go to a clinic if the person cannot keep fluids down or gets worse."
+      ],
+      "shona": [
+        "Bikai riita rimwe remvura uye isiyai itonhore.",
+        "Sanganyai sacheti imwe yeORS, kana makapu matanhatu eshuga nehafu yekapu yesawoti.",
+        "Pai zvipimo zvishoma kazhinji — musamanikidza zvikuru panguva imwe.",
+        "Endai kuchipatara kana munhu asingakwanisi kuchengeta mvura kana achiwedzera kurwara."
+      ]
+    },
+    "answer_warning": {
+      "en": "ORS is not a cure — it prevents dangerous dehydration while the body recovers. Seek clinic help for severe diarrhoea.",
+      "shona": "ORS hairapi — inodzivirira kuoma kwemuviri kunotyisa muviri uchipora. Tsvagai rubatsiro rwechipatara kana manyoka akanyanya."
+    },
+    "follow_up_question": null,
+    "tags": [
+      "ORS",
+      "oral rehydration",
+      "rehydration",
+      "diarrhoea",
+      "dehydration",
+      "salt sugar water",
+      "manyoka",
+      "mvura",
+      "chipatara",
+      "sugar",
+      "salt",
+      "fluids",
+      "drink",
+      "sick",
+      "child"
+    ]
+  },
+  {
+    "intent_id": "food_wash",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "How should I wash food and vegetables?",
+      "shona": "Ndinogeza sei chikafu nemiriwo?"
+    },
+    "sample_variations": {
+      "en": [
+        "How to wash vegetables?",
+        "Should I wash fruit before eating?",
+        "How to clean food?",
+        "Washing vegetables safely",
+        "Can I wash food with river water?",
+        "How to make food safe?",
+        "Clean vegetables before eating",
+        "Food hygiene washing"
+      ],
+      "shona": [
+        "Ndinogeza sei miriwo?",
+        "Ndinogeza sei michero musati madya?",
+        "Ndinonatsa sei chikafu?",
+        "Mvura yerwizi inogona kushandiswa kugeza miriwo here?",
+        "Ndinogeza sei chikafu zvakanaka?"
+      ]
+    },
+    "answer_short": {
+      "en": "Wash all raw vegetables and fruit with clean treated water before eating or cooking. Never wash food with untreated river or dam water.",
+      "shona": "Gezai miriwo yose nemichero nemvura yakachena yarapwa musati madya kana kubika. Musageza chikafu nemvura yerwizi kana yedhamu isina kurapwa."
+    },
+    "answer_steps": {
+      "en": [
+        "Use clean boiled or treated water to wash vegetables and fruit.",
+        "Rub the surface of vegetables well under running water.",
+        "Do not wash food with river, dam, or untreated water.",
+        "Keep washed food covered until it is eaten or cooked."
+      ],
+      "shona": [
+        "Shandisai mvura yakabikwa kana yarapwa kugeza miriwo nemichero.",
+        "Kwizai pamusoro pemiriwo zvakanaka pasi pemvura inoyerera.",
+        "Musageza chikafu nemvura yerwizi, yedhamu, kana isina kurapwa.",
+        "Chengetai chikafu chakagezwa chakafukidzwa kusvika chadyiwa kana kubikwa."
+      ]
+    },
+    "answer_warning": {
+      "en": "Washing food with dirty water can spread germs onto the food.",
+      "shona": "Kugeza chikafu nemvura yakasviba kunogona kuparadzira masimu pachikafu."
+    },
+    "follow_up_question": null,
+    "tags": [
+      "food",
+      "vegetables",
+      "wash food",
+      "fruit",
+      "clean food",
+      "chikafu",
+      "miriwo",
+      "michero",
+      "mvura",
+      "safe",
+      "germs",
+      "food hygiene",
+      "wash vegetables",
+      "eat",
+      "cook"
+    ]
+  },
+  {
+    "intent_id": "child_sick",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "What should I do if my child is sick?",
+      "shona": "Ndoita sei kana mwana wangu arwara?"
+    },
+    "sample_variations": {
+      "en": [
+        "My child is sick",
+        "Baby has diarrhoea",
+        "Child has fever",
+        "My child is vomiting",
+        "Child is not eating",
+        "What to do when child is ill?",
+        "My baby is unwell",
+        "Child keeps getting sick"
+      ],
+      "shona": [
+        "Mwana wangu arwara",
+        "Mwana ane manyoka",
+        "Mwana ane febha",
+        "Mwana ari kurutsa",
+        "Ndoita sei nemwana arwara?"
+      ]
+    },
+    "answer_short": {
+      "en": "Give the child clean water to drink. If they have diarrhoea, use ORS. Go to the nearest clinic if the child has a fever, cannot keep fluids down, or is very weak.",
+      "shona": "Pai mwana mvura yakachena kunwa. Kana ane manyoka, shandisai ORS. Endai kuchipatara chepedyo kana mwana ane febha, asingakwanisi kuchengeta mvura, kana asina simba."
+    },
+    "answer_steps": {
+      "en": [
+        "Give the child small sips of clean water or ORS frequently.",
+        "If the child has diarrhoea, make ORS with sugar, salt, and clean water.",
+        "Go to the nearest clinic immediately if the child has a high fever, is very weak, or cannot keep fluids down.",
+        "Keep the child away from dirty water and food."
+      ],
+      "shona": [
+        "Pai mwana zvipimo zvishoma zvemvura yakachena kana ORS kazhinji.",
+        "Kana mwana ane manyoka, gadzira ORS neshuga, sawoti, nemvura yakachena.",
+        "Endai kuchipatara chepedyo pakarepo kana mwana ane febha yakakwira, asina simba, kana asingakwanisi kuchengeta mvura.",
+        "Chengetai mwana kure nemvura yakasviba nechikafu."
+      ]
+    },
+    "answer_warning": {
+      "en": "Children can become dangerously dehydrated very quickly. Do not wait — go to a clinic early.",
+      "shona": "Vana vanogona kuoma muviri zvinotyisa nekukurumidza. Musanonoka — endai kuchipatara nekukurumidza."
+    },
+    "follow_up_question": null,
+    "tags": [
+      "child sick",
+      "baby sick",
+      "child diarrhoea",
+      "child fever",
+      "mwana",
+      "vana",
+      "kurwara",
+      "chipatara",
+      "ORS",
+      "sick",
+      "fever",
+      "vomiting",
+      "baby",
+      "child",
+      "ill",
+      "unwell",
+      "dehydration"
+    ]
+  },
+  {
+    "intent_id": "food_store",
+    "topic": "Disease Prevention",
+    "language": "shona/en",
+    "canonical_question": {
+      "en": "How do I store food safely?",
+      "shona": "Ndinochengeta sei chikafu zvakanaka?"
+    },
+    "sample_variations": {
+      "en": [
+        "How to keep food safe?",
+        "Food storage tips",
+        "How long can I keep cooked food?",
+        "Should I cover food?",
+        "Keeping food away from flies",
+        "How to prevent food from going bad?",
+        "Safe food storage",
+        "Food safety at home"
+      ],
+      "shona": [
+        "Ndinochengeta sei chikafu?",
+        "Chikafu chinofanira kufukidzwa here?",
+        "Chikafu chinogona kugara nguva yakareba sei?",
+        "Ndinodzivisa sei makonye pachikafu?",
+        "Ndinochengeta sei chikafu kuti chisaora?"
+      ]
+    },
+    "answer_short": {
+      "en": "Keep cooked food covered at all times. Do not leave food out for more than 2 hours. Store raw and cooked food separately and keep food away from animals and flies.",
+      "shona": "Chengetai chikafu chakabikwa chakafukidzwa nguva dzose. Musasiya chikafu pasina kufukidzwa kwenguva inopfuura maawa maviri. Chengetai chikafu chisina kubikwa neche chakabikwa zvakasiyana uye chengetai chikafu kure nemhuka nemakonye."
+    },
+    "answer_steps": {
+      "en": [
+        "Cover all cooked food immediately after cooking.",
+        "Do not leave food uncovered for more than 2 hours.",
+        "Store raw meat and cooked food in separate containers.",
+        "Keep food away from flies, animals, and dirty surfaces.",
+        "Reheat leftover food thoroughly before eating."
+      ],
+      "shona": [
+        "Fukidzai chikafu chose chakabikwa pakarepo mushure mekubika.",
+        "Musasiya chikafu pasina kufukidzwa kwenguva inopfuura maawa maviri.",
+        "Chengetai nyama isina kubikwa nechikafu chakabikwa mumidziyo yakasiyana.",
+        "Chengetai chikafu kure nemakonye, mhuka, nenzvimbo tsvina.",
+        "Pisai chikafu chakasara zvakanaka musati madya."
+      ]
+    },
+    "answer_warning": {
+      "en": "Uncovered food attracts flies that can spread germs from waste onto your food.",
+      "shona": "Chikafu chisina kufukidzwa chinokwezva makonye anogona kuparadzira masimu kubva kutsvina pachikafu chenyu."
+    },
+    "follow_up_question": null,
+    "tags": [
+      "food storage",
+      "store food",
+      "keep food",
+      "cover food",
+      "chikafu",
+      "fukidza",
+      "flies",
+      "makonye",
+      "safe",
+      "disease",
+      "germs",
+      "food safety",
+      "cooked food",
+      "raw food",
+      "food hygiene"
+    ]
+  }
+]
